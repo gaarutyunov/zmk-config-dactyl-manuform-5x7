@@ -9,6 +9,17 @@
 #define ADJ 3
 
 / {
+    macros {
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            label = "new_macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp EQUAL &kp LEFT_SHIFT &kp DOT>,
+                <&macro_press>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -40,14 +51,14 @@
 
         raise_layer {
             bindings = <
-    &kp GRAVE  &kp EXCL     &kp AT   &kp HASH   &kp DLLR  &kp PRCNT  &trans  &trans  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR        &trans
- &kp K_VOL_UP  &kp HOME  &kp PG_DN  &kp PG_UP    &kp END     &trans  &trans  &trans     &trans    &trans     &trans    &trans    &trans  &kp K_VOL_UP
- &kp K_VOL_DN  &kp LEFT   &kp DOWN     &kp UP  &kp RIGHT     &trans  &trans  &trans     &trans    &trans     &trans    &trans    &trans  &kp K_VOL_DN
-   &kp K_MUTE    &trans     &trans     &trans     &trans     &trans                     &trans    &trans     &trans    &trans    &trans    &kp K_MUTE
-       &trans    &trans     &trans     &trans                                                                &trans    &trans    &trans        &trans
-                                                   &mo 3     &trans                     &trans    &trans
-                                                             &trans  &trans  &trans     &trans
-                                                             &trans  &trans  &trans     &trans
+    &kp GRAVE  &kp EXCL     &kp AT   &kp HASH   &kp DLLR  &kp PRCNT  &trans  &trans        &kp CARET   &kp AMPS             &kp ASTRK               &kp HASH    &kp PERCENT        &trans
+ &kp K_VOL_UP  &kp HOME  &kp PG_DN  &kp PG_UP    &kp END     &trans  &trans  &trans  &kp EXCLAMATION  &kp EQUAL        &kp LEFT_BRACE        &kp RIGHT_BRACE       &kp PIPE  &kp K_VOL_UP
+ &kp K_VOL_DN  &kp LEFT   &kp DOWN     &kp UP  &kp RIGHT     &trans  &trans  &trans       &kp DOLLAR  &kp CARET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS         &kp AT  &kp K_VOL_DN
+   &kp K_MUTE    &trans     &trans     &trans     &trans     &trans                    &kp AMPERSAND        &kp      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp BACKSLASH    &kp K_MUTE
+       &trans    &trans     &trans     &trans                                                                                  &trans                 &trans         &trans        &trans
+                                                   &mo 3     &trans                           &trans     &trans
+                                                             &trans  &trans  &trans           &trans
+                                                             &trans  &trans  &trans           &trans
             >;
         };
 
