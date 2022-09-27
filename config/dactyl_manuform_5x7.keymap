@@ -23,8 +23,8 @@
     &kp LEFT_SHIFT     &kp Z           &kp X            &kp C   &kp V      &kp B                                 &kp N   &kp M     &kp COMMA   &kp DOT       &kp FSLH    &kp LEFT_SHIFT
          &kp LCTRL  &kp LGUI  &kp LEFT_ARROW  &kp RIGHT_ARROW                                                                   &kp UP_ARROW  &kp DOWN  &kp BACKSLASH      &kp LEFT_ALT
                                                                 &mo 1  &kp SPACE                               &kp RET   &mo 2
-                                                                         &kp TAB        &kp LCTRL    &kp END   &kp DEL
-                                                                        &kp BSPC            &mo 3   &kp LGUI  &kp LALT
+                                                                       &kp LCTRL    &kp BACKSPACE    &kp END   &kp DEL
+                                                                        &kp HOME            &mo 3   &kp LGUI  &kp LALT
             >;
         };
 
