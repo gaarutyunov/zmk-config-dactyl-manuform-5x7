@@ -31,14 +31,14 @@
 
         default_layer {
             bindings = <
-&kp ESC         &kp N1       &kp N2          &kp N3           &kp N4            &kp N5     &kp PRINTSCREEN  &kp EQUAL     &kp N6   &kp N7             &kp N8          &kp N9          &kp N0                 &kp MINUS
-&kp TAB         &kp Q        &kp W           &kp E            &kp R             &kp T      &kp BACKSLASH    &kp RBKT      &kp Y    &kp U              &kp I           &kp O           &kp P                  &kp LEFT_BRACKET
-&kp CAPSLOCK    &hr A LCTRL  &hr S LEFT_ALT  &hr D LEFT_GUI   &hr F LEFT_SHIFT  &kp G      &kp LPAR         &kp RPAR      &kp H    &hr J RIGHT_SHIFT  &hr K LEFT_GUI  &hr L LEFT_ALT  &hr SEMI LEFT_CONTROL  &kp SQT
-&kp LEFT_SHIFT  &kp Z        &kp X           &kp C            &kp V             &kp B                                     &kp N    &kp M              &kp COMMA       &kp DOT         &kp FSLH               &kp LEFT_SHIFT
-&kp LCTRL       &kp LGUI     &kp LEFT_ARROW  &kp RIGHT_ARROW                                                                                          &kp UP_ARROW    &kp DOWN        &kp BACKSLASH          &kp LEFT_ALT
-                                                              &mo 1             &kp SPACE                                 &kp RET  &mo 2
-                                                                                &kp LCTRL  &kp BACKSPACE    &kp LEFT_GUI  &kp DEL
-                                                                                &kp HOME   &mo 3            &kp LALT      &kp END
+&kp ESC         &kp N1              &kp N2          &kp N3           &kp N4            &kp N5     &kp PRINTSCREEN  &kp EQUAL     &kp N6   &kp N7             &kp N8          &kp N9          &kp N0                 &kp MINUS
+&kp TAB         &kp Q               &kp W           &kp E            &kp R             &kp T      &kp BACKSLASH    &kp RBKT      &kp Y    &kp U              &kp I           &kp O           &kp P                  &kp LEFT_BRACKET
+&kp CAPSLOCK    &hr LEFT_CONTROL A  &hr LEFT_ALT S  &hr LEFT_GUI D   &hr LEFT_SHIFT F  &kp G      &kp LPAR         &kp RPAR      &kp H    &hr RIGHT_SHIFT J  &hr LEFT_GUI K  &hr LEFT_ALT L  &hr LEFT_CONTROL SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z               &kp X           &kp C            &kp V             &kp B                                     &kp N    &kp M              &kp COMMA       &kp DOT         &kp FSLH               &kp LEFT_SHIFT
+&kp LCTRL       &kp LGUI            &kp LEFT_ARROW  &kp RIGHT_ARROW                                                                                          &kp UP_ARROW    &kp DOWN        &kp BACKSLASH          &kp LEFT_ALT
+                                                                     &mo 2             &kp SPACE                                 &kp RET  &mo 1
+                                                                                       &kp LCTRL  &kp BACKSPACE    &kp LEFT_GUI  &kp DEL
+                                                                                       &kp HOME   &kp TAB          &kp LALT      &kp END
             >;
         };
 
@@ -49,7 +49,7 @@
 &kp CAPS  &kp LGUI   &kp LALT   &kp LSHFT  &kp LCTRL  &trans  &trans  &trans  &kp LEFT   &kp DOWN       &kp UP    &kp RIGHT  &kp BSPC  &trans
 &trans    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans                  &kp INS    &trans         &trans    &trans     &trans    &trans
 &trans    &trans     &trans     &trans                                                                  &trans    &trans     &trans    &trans
-                                           &trans     &trans                  &trans     &mo 3
+                                           &mo 3      &trans                  &trans     &trans
                                                       &trans  &trans  &trans  &trans
                                                       &trans  &trans  &trans  &trans
             >;
@@ -62,7 +62,7 @@
 &kp K_VOL_DN  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans     &trans  &trans  &kp DOLLAR       &kp CARET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT         &kp K_VOL_DN
 &kp K_MUTE    &trans    &trans     &trans     &trans     &trans                     &kp AMPERSAND    &kp TILDE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &kp K_MUTE
 &trans        &trans    &trans     &trans                                                                       &trans                &trans                 &trans         &trans
-                                              &mo 3      &trans                     &trans           &trans
+                                              &trans     &trans                     &trans           &mo 3
                                                          &trans     &trans  &trans  &trans
                                                          &trans     &trans  &trans  &trans
             >;
@@ -78,19 +78,6 @@
                                                         &none         &none                            &none        &none
                                                                       &none         &none  &none       &none
                                                                       &none         &none  &bt BT_NXT  &none
-            >;
-        };
-
-        Layer__4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans
-                                &trans  &trans                  &trans  &trans
-                                        &trans  &trans  &trans  &trans
-                                        &trans  &trans  &trans  &trans
             >;
         };
     };
