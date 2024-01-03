@@ -31,14 +31,14 @@
 
         default_layer {
             bindings = <
-&mt ESCAPE GRAVE  &kp N1              &kp N2          &kp N3           &kp N4            &kp N5     &kp PRINTSCREEN  &kp EQUAL      &kp N6        &kp N7             &kp N8          &kp N9          &kp N0                 &kp MINUS
-&kp TAB           &kp Q               &kp W           &kp E            &kp R             &kp T      &kp BACKSLASH    &kp RBKT       &kp Y         &kp U              &kp I           &kp O           &kp P                  &kp LEFT_BRACKET
-&kp CAPSLOCK      &hr LEFT_CONTROL A  &hr LEFT_ALT S  &hr LEFT_GUI D   &hr LEFT_SHIFT F  &kp G      &kp LPAR         &kp RPAR       &kp H         &hr RIGHT_SHIFT J  &hr LEFT_GUI K  &hr LEFT_ALT L  &hr LEFT_CONTROL SEMI  &kp SQT
-&kp LEFT_SHIFT    &kp Z               &kp X           &kp C            &kp V             &kp B                                      &kp N         &kp M              &kp COMMA       &kp DOT         &kp FSLH               &kp LEFT_SHIFT
-&kp LCTRL         &kp LGUI            &kp LEFT_ARROW  &kp RIGHT_ARROW                                                                                                &kp UP_ARROW    &kp DOWN        &kp BACKSLASH          &kp LEFT_ALT
-                                                                       &lt 2 SPACE       &kp SPACE                                  &kp LEFT_GUI  &lt 1 ENTER
-                                                                                         &kp LCTRL  &kp TAB          &kp BACKSPACE  &kp DEL
-                                                                                         &kp HOME   &caps_word       &kp LALT       &kp END
+&mt ESCAPE GRAVE  &kp N1              &kp N2          &kp N3           &kp N4            &kp N5         &kp PRINTSCREEN  &kp EQUAL     &kp N6        &kp N7             &kp N8          &kp N9          &kp N0                 &kp MINUS
+&kp TAB           &kp Q               &kp W           &kp E            &kp R             &kp T          &kp BACKSLASH    &kp RBKT      &kp Y         &kp U              &kp I           &kp O           &kp P                  &kp LEFT_BRACKET
+&kp CAPSLOCK      &hr LEFT_CONTROL A  &hr LEFT_ALT S  &hr LEFT_GUI D   &hr LEFT_SHIFT F  &kp G          &kp LPAR         &kp RPAR      &kp H         &hr RIGHT_SHIFT J  &hr LEFT_GUI K  &hr LEFT_ALT L  &hr LEFT_CONTROL SEMI  &kp SQT
+&kp LEFT_SHIFT    &kp Z               &kp X           &kp C            &kp V             &kp B                                         &kp N         &kp M              &kp COMMA       &kp DOT         &kp FSLH               &kp LEFT_SHIFT
+&kp LCTRL         &kp LGUI            &kp LEFT_ARROW  &kp RIGHT_ARROW                                                                                                   &kp UP_ARROW    &kp DOWN        &kp BACKSLASH          &kp LEFT_ALT
+                                                                       &lt 2 SPACE       &kp BACKSPACE                                 &kp LEFT_GUI  &lt 1 ENTER
+                                                                                         &kp LCTRL      &kp TAB          &kp LEFT_ALT  &kp DEL
+                                                                                         &kp HOME       &caps_word       &kp ESCAPE    &kp END
             >;
         };
 
