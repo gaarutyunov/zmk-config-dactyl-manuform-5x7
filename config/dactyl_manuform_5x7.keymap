@@ -38,7 +38,7 @@
 &kp LC(SPACE)     &kp LCTRL           &kp LEFT_ARROW  &kp RIGHT_ARROW                                                                                                   &kp DOWN_ARROW  &kp UP_ARROW    &kp BACKSLASH          &kp LEFT_ALT
                                                                        &lt 2 SPACE       &kp BACKSPACE                                 &kp LEFT_GUI  &lt 1 ENTER
                                                                                          &kp LCTRL      &kp TAB          &kp LEFT_ALT  &kp DEL
-                                                                                         &kp HOME       &caps_word       &kp ESCAPE    &kp END
+                                                                                         &mo 3          &caps_word       &kp ESCAPE    &kp END
             >;
         };
 
